@@ -1,4 +1,4 @@
-<Project  Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
     <RootNamespace>MSTestDesktopCSharp</RootNamespace>
@@ -28,6 +28,7 @@
     <Content Include="packages\MSTest.TestFramework.2.2.10.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="README.md" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace $safeprojectname$
@@ -8,6 +8,10 @@ namespace $safeprojectname$
     {
         [TestMethod]
         public void TestMethod1()
+        {
+        }
+        [TestMethod]
+        public void TestMethod2()
         {
         }
     }
